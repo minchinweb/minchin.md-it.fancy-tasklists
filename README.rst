@@ -5,7 +5,7 @@ This is a plugin for the Python implementation of
 `Markdown-IT <https://github.com/executablebooks/markdown-it-py>`_ (a CommonMark
 parser) that provides "fancy" tasklists (or checkboxes).
 
-in particular, it allows you to use (almost) any character to "check" the
+In particular, it allows you to use (almost) any character to "check" the
 checkbox, and then, through the use of CSS, change the displayed checkbox.
 Sample CSS is included. (If the character you want to use doesn't currently
 work, please submit a Pull Request to add it!)
