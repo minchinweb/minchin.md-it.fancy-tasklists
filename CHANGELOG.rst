@@ -1,6 +1,7 @@
 Changelog for Fancy Tasklists
 =============================
 
+- :feature:`3` add additional indicator: `o` (BuJo event)
 - :feature:`2` add additional indicator: `e` (energy)
 - :feature:`1` add additional indicators: 📕 ((red) book), 🏠 (house), 📺 (TV
   (show)), 🎥/🎬/📽/🎞/🎦 (movie/film), 🎲 (dice)
