@@ -9,7 +9,7 @@ Builds task/todo lists out of markdown lists with items starting with [ ]
 # ISC License
 # Copyright (c) 2016-18 Revin Guillen
 # Copyright (c) Wolmar Nyberg Åkerström
-# Copyright (c) 2024 William Minchin
+# Copyright (c) 2024-25 William Minchin
 #
 # Permission to use, copy, modify, and/or distribute this software for any
 # purpose with or without fee is hereby granted, provided that the above
@@ -34,11 +34,11 @@ from markdown_it.token import Token
 
 __title__ = "minchin.md-it.fancy-tasklists"
 __tagline__ = "Fancy Tasklists, for Markdown-IT-Py"
-__version__ = "1.1.1-dev"
+__version__ = "1.1.1-dev.2"
 __author__ = "William Minchin"
 __email__ = "w_minchin@hotmail.com"
 __license__ = "ISC License"
-__copyright__ = "Copyright 2024 William Minchin"
+__copyright__ = "Copyright 2024-25 William Minchin"
 __url__ = "https://github.com/MinchinWeb/minchin.md-it.fancy-tasklists"
 
 
@@ -49,7 +49,8 @@ _GFM_WHITESPACE_RE = r"[ \t\n\v\f\r]"
 
 # Characters that can be valid "filler"
 # does not include the space
-_VALID_FILLER = r'a-zA-Z0-9/\-><?!*"@\+&~🚿🦷⛪'
+# following don't work, as we'd need UTF-16: 📽️🚶‍♀️🚶‍♂️🏊‍♀️🏊‍♂️
+_VALID_FILLER = r'a-zA-Z0-9/\-><?!*"@\+&~🚿🦷⛪📕🏠📺🎥🎬📽🎞🎦🎲📽️🚶‍♀️🚶‍♂️🏊‍♀️🏊‍♂️'
 
 
 def fancy_tasklists_plugin(
