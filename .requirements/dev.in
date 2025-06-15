@@ -1,4 +1,4 @@
 pip-tools
-minchin.releaser
+minchin.releaser >= 0.9.5
 black
 isort

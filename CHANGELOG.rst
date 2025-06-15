@@ -1,6 +1,7 @@
 Changelog for Fancy Tasklists
 =============================
 
+- :release:`1.2.0 <2025-06-14>`
 - :feature:`3` add additional indicator: `o` (BuJo event)
 - :feature:`2` add additional indicator: `e` (energy)
 - :feature:`1` add additional indicators: 📕 ((red) book), 🏠 (house), 📺 (TV

@@ -34,7 +34,7 @@ from markdown_it.token import Token
 
 __title__ = "minchin.md-it.fancy-tasklists"
 __tagline__ = "Fancy Tasklists, for Markdown-IT-Py"
-__version__ = "1.1.1-dev.2"
+__version__ = "1.2.0"
 __author__ = "William Minchin"
 __email__ = "w_minchin@hotmail.com"
 __license__ = "ISC License"

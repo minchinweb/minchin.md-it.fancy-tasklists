@@ -12,7 +12,7 @@ build==1.2.1
     # via
     #   minchin-releaser
     #   pip-tools
-certifi==2024.2.2
+certifi==2025.6.15
     # via
     #   minchin-releaser
     #   requests
@@ -33,8 +33,10 @@ gitdb==4.0.11
     # via gitpython
 gitpython==3.1.42
     # via minchin-releaser
-idna==3.6
-    # via requests
+idna==3.10
+    # via
+    #   minchin-releaser
+    #   requests
 importlib-metadata==7.1.0
     # via twine
 invoke==2.2.0
@@ -55,7 +57,7 @@ markdown-it-py==3.0.0
     # via rich
 mdurl==0.1.2
     # via markdown-it-py
-minchin-releaser==0.9.1
+minchin-releaser==0.9.5
     # via -r .requirements\dev.in
 more-itertools==10.2.0
     # via
@@ -73,8 +75,10 @@ pathspec==0.12.1
     # via black
 pip-tools==7.4.1
     # via -r .requirements\dev.in
-pkginfo==1.10.0
-    # via twine
+pkginfo==1.12.1.2
+    # via
+    #   minchin-releaser
+    #   twine
 platformdirs==4.2.0
     # via black
 pygments==2.17.2
@@ -90,7 +94,7 @@ pywin32-ctypes==0.2.2
     # via keyring
 readme-renderer==43.0
     # via twine
-requests==2.31.0
+requests==2.32.4
     # via
     #   minchin-releaser
     #   requests-toolbelt
@@ -109,7 +113,7 @@ smmap==5.0.1
     # via gitdb
 twine==5.0.0
     # via minchin-releaser
-urllib3==2.2.1
+urllib3==2.4.0
     # via
     #   minchin-releaser
     #   requests
@@ -120,8 +124,10 @@ wheel==0.43.0
     # via
     #   minchin-releaser
     #   pip-tools
-zipp==3.18.1
-    # via importlib-metadata
+zipp==3.23.0
+    # via
+    #   importlib-metadata
+    #   minchin-releaser
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
