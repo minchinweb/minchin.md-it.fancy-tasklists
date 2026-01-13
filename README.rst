@@ -20,6 +20,6 @@ This doesn't include the CSS to change the display of the checkboxes to
 (see `custom-checkboxes.less
 <https://github.com/MinchinWeb/seafoam/blob/master/css_src/less/custom-checkboxes.less>`_).
 
-.. image:: https://github.com/MinchinWeb/seafoam/raw/master/docs/screenshots/2.10.0/fancy-checkboxes.png
+.. image:: https://github.com/MinchinWeb/seafoam/raw/master/docs/screenshots/2.17.0/fancy-checkboxes.png
     :align: center
     :alt: Fancy Checkboxes, using Seafoam theme
