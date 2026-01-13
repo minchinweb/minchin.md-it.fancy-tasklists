@@ -1,5 +1,5 @@
 """
-Builds task/todo lists out of markdown lists with items starting with [ ]
+Builds task/todo lists out of Markdown lists with items starting with [ ]
 (and many valid filler characters).
 """
 
@@ -9,7 +9,7 @@ Builds task/todo lists out of markdown lists with items starting with [ ]
 # ISC License
 # Copyright (c) 2016-18 Revin Guillen
 # Copyright (c) Wolmar Nyberg Åkerström
-# Copyright (c) 2024-25 William Minchin
+# Copyright (c) 2024-26 William Minchin
 #
 # Permission to use, copy, modify, and/or distribute this software for any
 # purpose with or without fee is hereby granted, provided that the above
@@ -22,6 +22,7 @@ Builds task/todo lists out of markdown lists with items starting with [ ]
 # WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 # ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
 from __future__ import annotations
 
 from html import escape as html_escape
@@ -38,7 +39,7 @@ __version__ = "1.2.1-dev"
 __author__ = "William Minchin"
 __email__ = "w_minchin@hotmail.com"
 __license__ = "ISC License"
-__copyright__ = "Copyright 2024-25 William Minchin"
+__copyright__ = "Copyright 2024-26 William Minchin"
 __url__ = "https://github.com/MinchinWeb/minchin.md-it.fancy-tasklists"
 
 
@@ -49,8 +50,9 @@ _GFM_WHITESPACE_RE = r"[ \t\n\v\f\r]"
 
 # Characters that can be valid "filler"
 # does not include the space
-# following don't work, as we'd need UTF-16: 📽️🚶‍♀️🚶‍♂️🏊‍♀️🏊‍♂️
-_VALID_FILLER = r'a-zA-Z0-9/\-><?!*"@\+&~🚿🦷⛪📕🏠📺🎥🎬📽🎞🎦🎲📽️🚶‍♀️🚶‍♂️🏊‍♀️🏊‍♂️'
+# following don't work, as we'd need UTF-16: 📽️🚶‍♀️🚶‍♂️🏊‍♀️🏊‍♂️✈️
+# _VALID_FILLER = r'a-zA-Z0-9/\-><?!*"@\+&~🚿🦷⛪📕🏠📺🎥🎬📽🎞🎦🎲📽️🚶‍♀️🚶‍♂️🏊‍♀️🏊‍♂️💼💤✈️🛒🧺💈'
+_VALID_FILLER = r'a-zA-Z0-9/\-><?!*"@\+&~🚿🦷⛪📕🏠📺🎥🎬📽🎞🎦🎲💼🛒📽️🚶‍♀️🚶‍♂️🏊‍♀️🏊‍♂️'
 
 
 def fancy_tasklists_plugin(

@@ -1,6 +1,9 @@
 Changelog for Fancy Tasklists
 =============================
 
+
+- :feature:`5` add additional indicators: 💼 (breifcase/professional), 🛒
+  (shopping card)
 - :release:`1.2.0 <2025-06-14>`
 - :feature:`3` add additional indicator: `o` (BuJo event)
 - :feature:`2` add additional indicator: `e` (energy)
