@@ -33,3 +33,5 @@ This doesn't include the CSS to change the display of the checkboxes to
 .. image:: https://github.com/MinchinWeb/seafoam/raw/master/docs/screenshots/2.17.0/fancy-checkboxes.png
     :align: center
     :alt: Fancy Checkboxes, using Seafoam theme
+
+Tests can be run using ``pytest``.

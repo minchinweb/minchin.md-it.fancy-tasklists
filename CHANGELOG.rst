@@ -1,6 +1,7 @@
 Changelog for Fancy Tasklists
 =============================
 
+- :support:`-` add basic tests
 - :release:`1.3.0 <2026-01-13>`
 - :feature:`5` add additional indicators: 💼 (breifcase/professional), 🛒
   (shopping card)
